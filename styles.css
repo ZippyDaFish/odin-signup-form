@@ -39,19 +39,24 @@
     background-repeat: no-repeat;
     width: 40vw;
 }
+
 .right {
     width: 60vw;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     background-color: rgb(0, 26, 23);
-}
-.right div, form {
-    padding-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
 }
 .dummy-text {
     width: 60%;
 }
 .remote-text {
     margin: 20px 0 60px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
 }
